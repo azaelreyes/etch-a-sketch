@@ -1,21 +1,30 @@
 .divGrid{
-    background-color: lightgray;
-    width: 60px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
+    background-color:aliceblue;
 }
 
 .hoverClass{
-    background-color: yellow;
+    background-color: cyan;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+h1{
+    margin-left: 25px;
 }
 
 #container{
     display: flex;
-    height: auto;
+    height: 800px;
+    width: 800px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 960px;
-    margin-inline: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
 }
